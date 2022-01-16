@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+.btn_icon {
+  text-align: right;
+}
+
+.btn {
+     border: none;
+  outline: none;
+  background-color: #fff;
+  color: #696969;
+}
+
+.material-icons {
+ cursor: pointer;
+}
+
+.shop_item {
+  background-color: #F5F5F5;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-right: 20px;
+}
+
+.item_title {
+  text-transform: uppercase;
+
+}
+  
+
+.item_img img {
+  width: 140px;
+  height: 140px;
+}
+
+
+.item_price {
+  color: red;
+}
+
+.item_button {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: red;
+  border: 1px solid red;
+  padding: 10px 15px;
+  border-radius: 49px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.shop-items {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.shop_card {
+  background-color: #F5F5F5;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.card_title {
+  text-transform: uppercase;
+}
+  
+  
+.card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_img {
+  width: 300px;
+  height: 170px;
+}
+.card_payment {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card_price {
+  color: red;
+}
+
+.card_button {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 49px;
+}
+
+.shop-cards {
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
